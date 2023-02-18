@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import HeaderComponent from "./components/HeaderComponent";
-import FirstComponent from "./components/FirstContainer";
+import FirstComponent from "./components/FirstComponent";
 import SecondComponent from "./components/SecondComponent";
 import ThirdComponent from "./components/ThirdComponent";
 import Footer from "./components/FooterComponent";
