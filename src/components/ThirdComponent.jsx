@@ -1,19 +1,17 @@
-import { H2 } from "./FirstContainer";
-import { Buttons, StyledButton, Par } from "./HeaderComponent";
-
+import "../Styles/ThirdComponent/ThirdComponent.css"
 
 export default function ThirdComponent() {
     return (
         <section>
-            <H2>Clipboard for iOS and Mac OS</H2>
-            <Par>
+            <h2 className="h2-heading">Clipboard for iOS and Mac OS</h2>
+            <p className="par">
                 Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
                 and you're ready to start adding to your clipboard.
-            </Par>
-            <Buttons>
-                <StyledButton otherColor>Download for iOS</StyledButton>
-                <StyledButton>Download for Mac</StyledButton>
-            </Buttons>
+            </p>
+            <div className="buttons-div">
+                <button className="btn-1">Download for iOS</button>
+                <button className="btn-2">Download for Mac</button>
+            </div>
         </section>
     )
 }
